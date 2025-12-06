@@ -1,0 +1,50 @@
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健康管理系统</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🏥 健康管理系统</h1>
+        <nav>
+            <a href="#">首页</a>
+            <a href="#">健康数据</a>
+            <a href="#">运动计划</a>
+            <a href="#">饮食记录</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="welcome">
+            <h2>欢迎使用健康管理系统</h2>
+            <p>记录您的健康数据，制定个性化运动计划。</p>
+        </section>
+        
+        <section id="features">
+            <div class="feature">
+                <h3>📊 数据记录</h3>
+                <p>记录体重、血压、运动量等健康数据。</p>
+            </div>
+            <div class="feature">
+                <h3>🏃 运动计划</h3>
+                <p>制定个性化运动方案，跟踪完成情况。</p>
+            </div>
+            <div class="feature">
+                <h3>🥗 饮食建议</h3>
+                <p>根据健康目标提供饮食建议。</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 健康管理系统 - 大作业项目</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+EOF
