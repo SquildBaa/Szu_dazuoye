@@ -14,4 +14,9 @@ public class main {
             System.out.println("没有命令行参数");
         }
     }
+
+}
+
+private main(){
+    //try 1
 }
